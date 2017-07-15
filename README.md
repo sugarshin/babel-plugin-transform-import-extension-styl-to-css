@@ -33,8 +33,8 @@ You can specify plugins via the `.babelrc`
 
 © sugarshin
 
-[circleci-image]: https://circleci.com/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css/tree/master.svg
-[circleci-url]: https://circleci.com/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css/tree/master
+[circleci-image]: https://circleci.com/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css.svg?style=svg&circle-token=6a8bad3865c8da5b67ad2f06fd47b1bbfcaeb9f1
+[circleci-url]: https://circleci.com/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css
 [codecov-image]: https://codecov.io/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/sugarshin/babel-plugin-transform-import-extension-styl-to-css
 [npm-image]: https://img.shields.io/npm/v/babel-plugin-transform-import-extension-styl-to-css.svg?style=flat-square
