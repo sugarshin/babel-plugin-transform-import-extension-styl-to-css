@@ -1,0 +1,41 @@
+{
+  "name": "babel-plugin-transform-import-extension-styl-to-css",
+  "version": "0.0.0",
+  "description": "This Babel 6 plugin transforms the extension of imported files from .styl to .css",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "NODE_ENV=test ava -v",
+    "test:coverage": "nyc npm test",
+    "clean:lib": "if [ -d lib ]; then rm -rf lib; fi",
+    "prebuild": "npm run clean:lib",
+    "build": "babel -d lib src",
+    "prepublish": "npm run lint && npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugarshin/babel-plugin-transform-import-extension-styl-to-css.git"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sugarshin/babel-plugin-transform-import-extension-styl-to-css/issues"
+  },
+  "homepage": "https://github.com/sugarshin/babel-plugin-transform-import-extension-styl-to-css#readme",
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "codecov": "^2.2.0",
+    "eslint": "^4.2.0",
+    "eslint-plugin-ava": "^4.2.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "nyc": "^11.0.3"
+  }
+}
