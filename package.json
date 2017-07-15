@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-import-extension-styl-to-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Babel 6 plugin transforms the extension of imported files from .styl to .css",
   "main": "lib/index.js",
   "files": [
